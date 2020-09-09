@@ -163,7 +163,7 @@ void menu()
     {
       bandera=false;
     }
-    else if(digitalRead(pul2))
+    else if(digitalRead(pul1))
     {
       delay(250);
       opcion++;
@@ -172,7 +172,7 @@ void menu()
         opcion = 0;
       }
     }
-    else if(digitalRead(pul1))
+    else if(digitalRead(pul2))
     {
       delay(150);
       for(int i=0; i<=opcion;i++)
